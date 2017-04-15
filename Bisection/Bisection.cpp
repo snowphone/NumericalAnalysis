@@ -7,10 +7,10 @@ template <typename T> T func(T x) {
 }
 
 /* #define myfabs((x)) ((((x)>0.)?(x):(-(x)))) */
-
+typedef double ty;
 int main() {
-	double a = 0.0001, b = 7.0, c;
-	double error = 0.00001;
+	ty a = 0.0001, b = 7.0, c;
+	const ty error = 0.00001;
 	int i = 0;
 
 	if (func(a) * func(b) > 0.0) {
@@ -18,7 +18,7 @@ int main() {
 		return 0;
 	}
 
-	do{
+	while(++i) {
 		c = (a + b) / 2.0;
 		if (fabs(b - a) < error && fabs(func(c)) < error)
 			break;
@@ -27,6 +27,6 @@ int main() {
 		else
 			b = c;
 		printf("%d intermediate computation %.5f\n", i, c);
-	} while (++i);
+	}
 	printf("%d answer %.5f\n", i, c);
 }
