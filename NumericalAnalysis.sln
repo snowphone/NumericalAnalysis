@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "squareRoot", "squareRoot\sq
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bisection", "Bisection\Bisection.vcxproj", "{7419C84C-CA28-4476-882B-2763F791161E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FixedPointIteration", "FixedPointIteration\FixedPointIteration.vcxproj", "{48EF5DAB-2F4F-4AEC-8DED-45D606103924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{7419C84C-CA28-4476-882B-2763F791161E}.Release|x64.Build.0 = Release|x64
 		{7419C84C-CA28-4476-882B-2763F791161E}.Release|x86.ActiveCfg = Release|Win32
 		{7419C84C-CA28-4476-882B-2763F791161E}.Release|x86.Build.0 = Release|Win32
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Debug|x64.ActiveCfg = Debug|x64
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Debug|x64.Build.0 = Debug|x64
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Debug|x86.ActiveCfg = Debug|Win32
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Debug|x86.Build.0 = Debug|Win32
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Release|x64.ActiveCfg = Release|x64
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Release|x64.Build.0 = Release|x64
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Release|x86.ActiveCfg = Release|Win32
+		{48EF5DAB-2F4F-4AEC-8DED-45D606103924}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
