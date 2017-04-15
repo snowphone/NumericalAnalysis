@@ -8,16 +8,16 @@ T g(T x) {
 typedef double ty;
 int main() {
 	//a < b
-	ty a = -0.4;
+	ty a = 0;
 	ty b = 100;
-	ty error = 0.000001, x = 2;
+	ty error = 0.000001, x = 0.5;
 
 	int i = 0;
 	while(++i){
 		ty oldx = x;
 		x = g(x);
 		if (x < a || x > b) {
-			std::cout << "range error" << std::endl;
+			std::cout << "range error because x is " << x << std::endl;
 			return 0;
 		}
 		printf("%d th result: %f\n", i, x);
